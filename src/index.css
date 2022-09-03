@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    width: 1500px;
+    height: auto;
+    border: 3px solid steelblue;
+    margin: 50px auto;
+    padding: 50px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    border-bottom: 5px solid black;
+
+}
+.header > h1 {
+    /* border-bottom: 5px solid black; */
+    font-size: 70px;
+}
+
+.btn {
+ height: 50px;
+ width: 100px;
+ margin-top: 80px;
+ font-size: 25px;
+ border-radius: 10px;
+ font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.btn-add {
+    background-color: green;
+    color: white;
+    border: none;
+    opacity: 0.85;
+}
+.btn-close {
+    background-color: red;
+    color: black;
+    border: none;
+}
+
+.task {
+    background-color: rgb(194, 192, 192);
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.container2   {
+    height: 650px;
+   overflow: auto;
+}
+
+.task > div {
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+
+
+.close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close > h2 {
+    cursor: pointer;
+}
+.close > h3 {
+    font-size: 30px;
+}
+
+.reminder {
+    border-left: 10px solid green;
+}
+
+.form-crtl {
+    margin: 30px;
+    font-size: 10px ;
+}
+.form-grp > input {
+    display: block;
+    margin: 10px 0;
+    padding: 7.5px;
+    font-size: 30px;
+    width: 92.5%;
+    outline: none;
+    border-radius: 7.5px;
+}
+.form-grp-lop {
+   font-size: 20px;
+
+}
+.form-grp > label {
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+.set-reminder {
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+.info {
+    font-size: 20px;
+}
+.info > h1 {
+    border-bottom: 3px solid grey;
+}
+.btn-save {
+    width: 90%;
+    margin: 30px 20px;
+    color: white;
+    background-color: black;
+}
+.set-reminder > label {
+    padding-right: 80px;
+}
+
